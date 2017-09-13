@@ -17,6 +17,12 @@
         <activity android:name=".SplashScreen" />
         <activity android:name=".WorkWithSharedPrefs" />
         <activity android:name=".Main3Activity"></activity>
+        <activity android:name=".StudentsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

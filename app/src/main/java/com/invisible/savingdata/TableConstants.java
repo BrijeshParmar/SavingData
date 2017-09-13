@@ -13,4 +13,23 @@ public class TableConstants {
     public static final String USER_EMAIL = "user_email";
     public static final String USER_PHONE = "user_phone";
     public static final String USER_ADDRESS = "user_address";
+
+
+    //Student
+    public static final String STU_TABLE = "StudentTable";
+    public static final String STU_NAME = "student_name";
+    public static final String STU_ENROLL = "enroll_no";
+    public static final String STU_EMAIL = "email";
+    public static final String STU_ID = "student_id";
+
+    //Subjects
+    public static final String SUB_TABLE = "Subjects";
+    public static final String SUB_NAME = "subject_name";
+    public static final String SUB_ID = "sub_id";
+
+    //Marks
+    public static final String MARKS_TABLE = "Marks";
+    public static final String MARKS = "marks";
+    public static final String MARKS_ID = "mark_id";
+
 }
